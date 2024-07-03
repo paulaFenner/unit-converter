@@ -12,23 +12,26 @@
 
 # What could be improved
 
-- JS
-  [x] let v. const
-  [x] refactoring for improved readability - concepts used:
+## JS
 
-  - separation of concerns
-  - parameters and arguments
-  - locally-scoped variables
+- [ ] let v. const
+- [ ] refactoring for improved readability - concepts used:
 
-- design:
-  [x] adding a bit of padding on main to give it more breathing room
-  [x] adding a min-height to .conversion-container to avoid the layout shift when renderinig results
+- separation of concerns
+- parameters and arguments
+- locally-scoped variables
 
-- HTML
-  [x] be aware that strings like "Metric/Imperial" with no space are treated as ONE word and will nt break when there's no more space on the line
-  [x] <input
-            type="text"
-            id="input-el"
-            placeholder="0" />
-  Are you aware of ther types of inputs? Here, we could use type="number"
-  For your curiosity: https://www.w3schools.com/html/html_form_input_types.asp
+## design:
+
+- [ ] adding a bit of padding on main to give it more breathing room
+- [ ] adding a min-height to .conversion-container to avoid the layout shift when renderinig results
+
+## HTML
+
+- [ ] be aware that strings like "Metric/Imperial" with no space are treated as ONE word and will nt break when there's no more space on the line
+- [ ] `<input
+                type="text"
+                id="input-el"
+                placeholder="0" />`
+      Are you aware of ther types of inputs? Here, we could use type="number"
+      For your curiosity: https://www.w3schools.com/html/html_form_input_types.asp
